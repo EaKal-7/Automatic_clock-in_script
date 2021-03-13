@@ -22,7 +22,7 @@ pwd="***********"       #E浙理密码
 def sendmail(subject, content):
     email_user = '************'  # 发送者账号
     email_pwd = '*********'       # 发送者授权码
-    maillist ='*********'    # 接收者账号，本来想写成[]list的，但是报错，还没解决！
+    maillist ='*********'    # 接收者账号
     me = email_user
 
     msg = MIMEText(content, 'html', 'utf-8')    # 邮件内容，三个参数：第一个为文本内容，第二个 html 设置文本格式，第三个 utf-8 设置编码
